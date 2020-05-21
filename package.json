@@ -1,0 +1,29 @@
+{
+  "name": "mongo-client-options-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ts-mocha ./test/MongoClientOptions.test.ts",
+    "build": "gulp -f ./pipeline.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.4",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-prettier": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "mocha": "^7.1.2",
+    "through2": "^3.0.1",
+    "ts-mocha": "^7.0.0",
+    "typescript": "^3.9.3"
+  }
+}

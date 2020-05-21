@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "strict": true,
+    "declaration": false,
+    "importHelpers": false,
+    "alwaysStrict": true,
+    "module": "commonJS",
+    "moduleResolution": "node",
+    "lib": ["ES2018"],
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "target": "ES2018",
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false
+  }
+}
