@@ -1,0 +1,20 @@
+{
+  "name": "mongo-options-design",
+  "version": "1.0.0",
+  "description": "This document is meant to provide a general overview of the strategy / design proposal for how we can handle the parsing and validation of Mongo Client Options.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@types/mongodb": "^3.5.17",
+    "mongodb": "^3.5.7"
+  }
+}

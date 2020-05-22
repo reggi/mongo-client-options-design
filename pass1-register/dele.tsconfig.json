@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "allowJs": true,
+        "checkJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "declarationDir": "arena/dec"
+    },
+    "include": ["arena/Options.ts"],
+    "ignore": ["prototypes", "prototypes/*"]
+}
