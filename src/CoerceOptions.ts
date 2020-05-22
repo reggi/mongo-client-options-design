@@ -95,6 +95,7 @@ export class CoerceOptions extends CoerceLib<any> {
     this.validateKeys(key, value, 'auth', ['username', 'user', 'pass', 'password'])
     const user = value.user ? this.string(value.user, 'user') : undefined
     const username = value.username ? this.string(value.user, 'username') : undefined
+    // TODO: Consider URL decode password value
     const pass = value.user ? this.string(value.pass, 'pass') : undefined
     const password = value.username ? this.string(value.password, 'password') : undefined
     return {
